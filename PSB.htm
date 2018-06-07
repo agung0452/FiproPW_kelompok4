@@ -1,9 +1,10 @@
 <div>
-	
-	<h1 style=" font-family: sans-serif; "> Formulir Penerimaan Siswa Baru</h1>
+	<h1 style="text-align: center; font-size: 25px;font-family: sans-serif; "> Pendaftaran Siswa Baru </h1>
+	<br>
+	<form action="/action_page.php" target="_blank" method="GET">
+		<table border="0" style="center; color: black">
+	<h2 style="font-size: 18px">Data Personal</h2>	
 
-	<table border="0" style="center; color: black">
-		
 		<tr>
 			<td>Nama Lengkap</td>
 			<td>:</td>
@@ -11,25 +12,11 @@
 		</tr>
 
 		<tr>
-			<td>Nama Panggilan </td>
+			<td>Tempat Lahir</td>
 			<td>:</td>
 			<td><input type="text" ></td>
 		</tr>
 
-		<tr>
-			<td>Alamat Tempat Tinggal</td>
-			<td>:</td>
-			<td><input type="text" ></td>
-		</tr>
-
-		<tr>
-			<td>Jenis Kelamin</td>
-			<td>:</td>
-			<td><input type="radio"/>Laki-Laki
-				<input type="radio"/>Perempuan
-
-			</td>
-		</tr>
 
 		<tr>
 			<td>Tanggal Lahir</td>
@@ -38,9 +25,9 @@
 		</tr>
 
 		<tr>
-			<td>NISN</td>
+			<td>Alamat Rumah</td>
 			<td>:</td>
-			<td><input type="text" ></td>
+			<td><textarea cols=20 rows=5> </textarea></td>
 		</tr>
 
 		<tr>
@@ -57,42 +44,12 @@
 		</tr>
 
 		<tr>
-			<td>Anak ke- </td>
+			<td>Jenis Kelamin</td>
 			<td>:</td>
-			<td><input type="text" ></td>
+			<td><input type="radio"/>Laki-Laki
+				<input type="radio"/>Perempuan
+			</td>
 		</tr>
-		
-		<tr>
-			<td>Jumlah Saudara</td>
-			<td>:</td>
-			<td><input type="text" ></td>
-		</tr>
-
-		<tr>
-			<td>No.Telp/Hp</td>
-			<td>:</td>
-			<td><input type="text" ></td>
-		</tr>
-
-		<tr>
-			<td>Alumni SMP/MTS</td>
-			<td>:</td>
-			<td><input type="text" ></td>
-		</tr>
-
-			<tr>
-				<td>Jumlah Nilai Akhir </td>
-				<td>:</td>
-				<td><input type="text" ></td>
-			</tr>
-
-			<tr>
-				<td>Jumlah Nilai Rata-Rata </td>
-				<td>:</td>
-				<td><input type="text" ></td>
-			</tr>
-			
-		
 
 		<tr>
 			<td>Kota Asal</td>
@@ -134,18 +91,69 @@
 				<option>Yogyakarta</option>
 			</select></td>
 		</tr>
+		<tr>
+			<td>No.Telp/Hp</td>
+			<td>:</td>
+			<td><input type="text" ></td>
+		</tr>
 
 		<tr>
 				<td>Hobi</td>
+				<td>:</td>
+				<td><select>
+					<option>Pilih Salah Satu</option>
+					<option>Musik</option>
+					<option>Olahraga</option>
+					<option>Travelling</option>
+					<option>Kuliner</option>
+					<option>Lainnya</option>
+				</select></td>
+		</tr>
+
+	</table>
+
+	<table>
+		<h3 style="font-size: 18px">Pendidikan</h3>
+
+		<tr>
+			<td>NISN</td>
+			<td>:</td>
+			<td><input type="text" ></td>
+		</tr>
+
+		<tr>
+			<td>Alumni SMP/MTS</td>
+			<td>:</td>
+			<td><input type="text" ></td>
+		</tr>
+
+			<tr>
+				<td>Jumlah Nilai Akhir </td>
 				<td>:</td>
 				<td><input type="text" ></td>
 			</tr>
 
 			<tr>
-				<td>Olahraga Yang Digemari</td>
+				<td>Jumlah Nilai Rata-Rata </td>
 				<td>:</td>
 				<td><input type="text" ></td>
 			</tr>
+	</table>	
+
+	<table>
+		<h4 style="font-size: 18px">Data Keluarga</h4>
+
+		<tr>
+			<td>Jumlah Saudara</td>
+			<td>:</td>
+			<td><input type="text" ></td>
+		</tr>
+
+		<tr>
+			<td>Anak ke- </td>
+			<td>:</td>
+			<td><input type="text" ></td>
+		</tr>
 
 		<tr>
 				<td>Nama Ayah </td>
@@ -176,17 +184,42 @@
 				<td><input type="text" ></td>
 		</tr>
 
-			
+	</table>
 
+	<table>
+		<h5 style="font-size: 18px">Pilih Jurusan </h5>
+		<tr>
+			<td>Jurusan </td>
+			<td>:</td>
+			<td><select>
+				<option>Pilih Salah Satu</option>
+				<option>Teknik Komputer Jaringan</option>
+				<option>Rekayasa Perangkat Lunak</option>
+				<option>Multimedia</option>
+				<option>Teknik Kendaraan Ringan</option>
+				<option>Teknik Sepeda Motor</option>
+				<option>Teknik Permesinan</option>
+				<option>Teknik Pengelasan</option>
+				<option>Teknik Pemiliharaan Mekanik Industri</option>
+				<option>Teknik Gambar Bangunan</option>
+				<option>Teknik Konstruksi Kayu</option>
+				<option>Teknik Kontruksi Batu dan Beton</option>
 
+			</select></td>
+		</tr>
 
+		<tr>
+        <td>Foto Diri</td>
+        <td>:</td>
+        <td><input type="file"></td>
+    </tr>
 
-
-
-
-
-
-	</table>	
-		
-
+	</table>
+	
+	<tr>
+        <td>&nbsp</td>
+        <td>&nbsp</td>
+        <td><input type="submit" value="Daftar"/></td>
+    </tr>
+	</form>
 </div>
