@@ -1,8 +1,13 @@
-<div>
-	<h1 style="text-align: center; font-size: 25px;font-family: sans-serif; "> Pendaftaran Siswa Baru </h1>
+<div class="container">
+	
+	<div>
+	<div class="row">
+		<div class="col-md-6">
+			<h1 style="font-size: 25px;font-family: sans-serif; "> Pendaftaran Siswa Baru </h1>
 	<br>
-	<form action="/action_page.php" target="_blank" method="GET">
-		<table border="0" style="center; color: black">
+	<div>
+<form action="/action_page.php" target="_blank" method="GET">
+	<table border="0" style="center; color: black">
 	<h2 style="font-size: 18px">Data Personal</h2>	
 
 		<tr>
@@ -111,7 +116,11 @@
 		</tr>
 
 	</table>
+	</div>
 
+	</div>
+	<div class="col-md-6">
+				<!-- Tabel Pendidikan -->
 	<table>
 		<h3 style="font-size: 18px">Pendidikan</h3>
 
@@ -138,8 +147,8 @@
 				<td>:</td>
 				<td><input type="text" ></td>
 			</tr>
-	</table>	
-
+	</table>
+	<!-- Table Keluarga -->
 	<table>
 		<h4 style="font-size: 18px">Data Keluarga</h4>
 
@@ -183,9 +192,8 @@
 				<td>:</td>
 				<td><input type="text" ></td>
 		</tr>
-
 	</table>
-
+	<!-- Pilih jurusan -->
 	<table>
 		<h5 style="font-size: 18px">Pilih Jurusan </h5>
 		<tr>
@@ -212,14 +220,20 @@
         <td>Foto Diri</td>
         <td>:</td>
         <td><input type="file"></td>
-    </tr>
+    	</tr>
 
-	</table>
+	</table>	
+	</div>
+	</div>	
+		
+
+
 	
 	<tr>
         <td>&nbsp</td>
         <td>&nbsp</td>
         <td><input type="submit" value="Daftar"/></td>
     </tr>
-	</form>
+</form>
+
 </div>

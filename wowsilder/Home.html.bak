@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>web coba2</title>
+	<link rel="stylesheet" type="text/css" href="styel.css">
+	<link rel="stylesheet" type="text/css" href="fa\wfwc\css\fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="boostrap\css\bootstrap.css">
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+	<div class="container-fluid">
+<div class="col md 12 header"><h1>Bitcoin Company</h1><p>Jln raya solo Ponorogo</p><
+	<div class="menu"><i class="fas fa-home"></i> Home | About Us | Portofolio | Product |Services | Contact Us</div> 
+</div>
+<div class="row">
+	<div class="col-md-4 ">
+		<br>
+		<table class="table-bordered & table-hover" width="100%">
+			<thead style="text-align: center; background-color: #D9D9D9">
+				<tr>
+					<th colspan="3">Coin Yang tersedia :</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Bitcoin</td>
+					<td>Bitcoin Gold</td>
+					<td>Ethereum</td>
+				</tr>
+				<tr>
+					<td>Cardano</td>
+					<td>Ethereum Classic</td>
+					<td>Ignis</td>
+				</tr>
+				<tr>
+					<td>Bitcoin Diamond</td>
+					<td>Lite Coin</td>
+					<td>Nxt</td>
+				</tr>
+				<tr>
+					<td>Bitcoin Cash</td>
+					<td>Tokenomy</td>
+					<td>Waves</td>
+				</tr>
+				<tr>
+					<td>Stellar Lumens</td>
+					<td>Ripple</td>
+					<td>ZCoin</td>
+				</tr>
+				<tr>
+					<td>BitShares</td>
+					<td>Dash</td>
+					<td>DogeCoin</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<table width="100%" style="border: 1px solid grey">
+			<thead style="text-align: center; background-color: #D9D9D9">
+				<tr>
+					<th>Beli Coin</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Bank Transfer</td>
+				</tr>
+				<tr>
+					<td>Bank BCA	:</td>
+				</tr>
+				<tr>
+					<td>Bank BNI	:</td>
+				</tr>
+				<tr style="text-align: center;">
+					<td> <img src="bca.jpg" style="width: 100px; height: 100px;">
+						<img src="bni.jpeg" style="width: 100px; height: 40px"></td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<div class="content_kanan"></div>
+	</div>
+	<div class="col-md-8">
+		
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><a href="http://wowslider.net"><img src="data0/images/1.jpg" alt="jquery carousel slider" title="1" id="wows0_0"/></a></li>
+		<li><img src="data0/images/2.jpg" alt="2" title="2" id="wows0_1"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data0/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data0/tooltips/2.jpg" alt="2"/>2</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript slideshow</a> by WOWSlider.com v8.8</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section --><div class="content_kanan"></div>
+		<div class="content_kiri"></div>
+			
+	
+	</div>
+</div>
+</div>
+</body>
+</html>

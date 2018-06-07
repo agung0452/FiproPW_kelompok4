@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>SMK 1 Negeri Selong</title>
+	<link rel="stylesheet" type="text/css" href="styel.css">
+	<link rel="stylesheet" type="text/css" href="fa\wfwc\css\fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="boostrap\css\bootstrap.css">
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<link rel="stylesheet" type="text/css" href="boostrap\js\bootstrap.min.js">
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  	<script src="boostrap\js\bootstrap.min.js"></script>
+  	<script>
+  			var app = angular.module("myApp", ["ngRoute"]);
+  	app.config(function($routeProvider){
+  		 $routeProvider
+    .when("/", {
+        templateUrl : "main.htm"
+       
+    })
+    .when("/PSB",{
+    	templateUrl : "PSB.htm"
+    })
+      .when("/akademik",{
+    	templateUrl : "akademik.htm"
+    })
+    .when("/about",{
+    	templateUrl : "about.htm"
+    })
+    .when("/profile",{
+    	templateUrl : "profile.htm"
+    })
+  	});
+
+  	 app.controller('homeCtrl',function($scope){
+      $scope.title = "welcome";
+    })
+  /*app.controller('homeCtrl', function($scope, $http) {
+    	$http.get("http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=bbd35c867a2b16cf61072818aff6465e")
+    	.then(function (response) {$scope.names = response.data.weather;
+    	})*/
+  	</script>
+</head>
+<body style="height: 1000px">
+	<div  ng-app="myApp" ng-controller="homeCtrl", class="container-fluid">
+<div class="col md 12 header"> <img src="gambar_icon/13.png" style="float: left;" ><img src="gambar_icon/14.png" style="float: right;"><h1>SMK 1 Negeri Selong</h1><h1></h1><p>Jl. Pejanggik No. 74, Rakam, Selong, Lombok Timur, Nusa Tenggara Bar. 83612</p><h1></h1>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#!">SMK 1 Selong</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#!">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#!profile">Profil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#!akademik">AkademiK</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#!PSB">PSB</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link disabled" href="#">Daftar Kariawan dan Guru</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+
+</nav>
+
+
+<!--<div class="menu"><i class="fas fa-home"></i><a href="#!"> Home</a>  | <i class="fas fa-user"></i> <a href="#!about"> Profile </a> | <i class="fas fa-clipboard"></i> Akademik | <i class="far fa-file-alt"></i> PSB  </div>--> 
+<div class="row">
+	<div style="background :" class="col-md-4 ">
+		<br>
+		<table class="table-bordered & table-hover" width="100%">
+			<form method="post" action="" >
+			<thead style="text-align: center; background-color: #D9D9D9">
+				<tr>
+					<th colspan="3"><i class="fas fa-address-card"></i> Login :</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+					<div class="form-group">
+					<div class="col-xs-4">
+						<label>Username</label>
+						<input type="Username" name="username" placeholder="Masukan Username">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-xs-4">
+						<label>Password</label>
+						<input type="Username" name="password" placeholder="Masukan password">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-xs-4" style="margin-left: 135px">
+						<input type="submit" name="login" value="Login">
+						<input type="submit" name="daftar" value="Daftar">
+					</div>
+				</div>
+				</td>
+				</tr>
+				</table>
+				
+
+			</form>
+		</table>
+		<br>
+		<table width="100%" style="border: 1px solid grey">
+			<thead style="text-align: center; background-color: #D9D9D9">
+				<tr>
+					<th><i class="fas fa-book"></i></i> Info sekolah </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+					<ul style="list-style-type: circle;">
+						<li>TRAINING GURU SMK NEGERI 1 SELONG</li>
+						<li>Juara Lomba tingakat kabupaten</li>
+						<li>Rapat Kerja Tahunan</li>
+						<li>Persiaan Pekan Olimpiade sekolah</li>
+					</ul> 
+					</td>
+				</tr>
+			
+			</tbody>
+		</table>
+		<br>
+		<table width="100%" style="border: 1px solid grey">
+			<thead style="text-align: center; background-color: #D9D9D9">
+				<tr>
+					<th><i class="fas fa-align-justify"></i> Banner </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+					<img src="gambar_icon\1.jpg" style="width: 100%; height:100px;"><br>
+					<img src="gambar_icon\2.jpg" style="width: 100%; height:100px;""> 
+					</td>
+				</tr>
+			
+			</tbody>
+		</table>
+		<br>
+		<table width="100%" style="border: 1px solid grey">
+			<thead style="text-align: center; background-color: #D9D9D9">
+				<tr>
+					<th><i class="fas fa-align-justify"></i> Suhu </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+					<p> suhu : {{info.main.temp}} </p>
+					<h1>weater</h1>
+					</td>
+				</tr>
+			
+			</tbody>
+		</table>
+		<br>
+
+		<table width="100%" style="border: 1px solid grey">
+			<thead style="text-align: center; background-color: #D9D9D9">
+				<tr>
+					<th><i class="fas fa-compass"></i> Lokasi </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+					 	<div id = "googleMap" style="width: 100%;height: 200px;">
+		</div>
+		<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(-8.651653, 116.519343),
+    zoom:16,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWP_f2IFkfWPyZM4mZBEbaVqnEyIv02Cw&callback=myMap"></script>
+
+					</td>
+				</tr>
+			
+			</tbody>
+		</table>
+		<br>
+			</div>
+	<div class="col-md-8">
+		<div ><br><!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/5.jpg" alt="bootstrap slider" title="5" id="wows1_4"/></a></li>
+		<li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">slideshow javascript</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+		</div><br>
+		<div class="content_kiri" style="height:auto; padding: 10px;">
+				<ng-view></ng-view>
+			<!--<div style="text-align: center;"><img src="gambar_icon/3.jpg" style="height: 200px; width: 400px;"></div>
+			<div style="padding :20px; font-family: sans-serif;"><p>Mataram (8/2) – Penandatanganan kerjasama antara Kubota dan SMK membuka banyak peluang baru bagi SMK untuk memperluas ilmu pengetahuan. Seperti yang dilakukan oleh SMKN 1 Selong, yang berkesempatan mengikuti pelatihan mengenai teknologi mesin diesel Kubota di Kantor Perwakilan Kubota Mataram. Pelatihan dilaksanakan selama tiga hari yakni tanggal 11-13 Januari 2017 dan diikuti oleh 7 orang guru mata pelajaran teknik kendaraan ringan di SMKN 1 Selong. Materi pelatihan yang diberikan mengenai praktek assembling dan re-assembling mesin diesel Kubota, analisa permasalahan ringan, pemakaian dan perawatan yang benar untuk memperpanjang masa hidup mesin. Melalui pelatihan ini diharapkan para guru dapat membagikan ilmu yang didapatkan pada siswa-siswa didiknya dan menghasilkan lulusan yang terampil, siap kerja serta memiliki ilmu pengetahuan yang lebih mengenai mesin diesel. <button type="button" class="btn btn-success">Read more...</button></p>--> 
+		</div>
+			
+	
+	</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</tbody>
+</form>
+</table>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Footer Content</h5>
+        <p>Alamat: Jl. Pejanggik No. 74, Rakam, Selong, Lombok Timur, Nusa Tenggara Bar. 83612</p>
+        <p>Provinsi: Nusa Tenggara Barat</p>
+        <p></p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+      <div style="text-align: right;"> <!-- Links -->
+        <h5 class="text-uppercase">Links 	:</h5>
+
+        
+          
+          <img style="width: 50px;height: 50px;" src="img/facebook.png">
+          <img style="width: 50px;height: 50px;" src="img/instagram.png">
+          <img style="width: 50px;height: 50px;" src="img/email.png">
+          <img style="width: 50px;height: 50px;" src="img/twitter.png">
+ 
+       </div> <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> SMK 1 Selong </a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+</body>
+
+
+
+
+</html>
